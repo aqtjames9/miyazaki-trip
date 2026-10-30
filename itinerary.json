@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "宮崎旅遊小幫手",
+    "headerTitle": "宮崎之旅",
+    "city": "宮崎",
+    "startDate": "",
+    "totalDays": 0,
+    "exchangeRate": 0.21,
+    "currency": {
+      "local": {
+        "code": "JPY",
+        "symbol": "¥",
+        "name": "日圓"
+      },
+      "home": {
+        "code": "TWD",
+        "symbol": "NT$",
+        "name": "台幣"
+      }
+    },
+    "location": {
+      "lat": 31.9077,
+      "lng": 131.4202,
+      "utcOffsetHours": 9
+    },
+    "monthlyTemps": {
+      "1": "3°C - 13°C",
+      "4": "12°C - 22°C",
+      "7": "24°C - 31°C",
+      "10": "16°C - 25°C"
+    },
+    "weatherLink": {
+      "label": "tenki.jp 宮崎天氣",
+      "url": "https://tenki.jp/forecast/9/46/8710/"
+    },
+    "mapSearch": {
+      "label": "Google Maps",
+      "baseUrl": "https://www.google.com/maps/search/?api=1&query="
+    },
+    "aiGuideRole": "專業的日本宮崎縣導遊",
+    "tools": [
+      {
+        "label": "Google Maps",
+        "url": "https://www.google.com/maps/place/Miyazaki",
+        "icon": "fa-map",
+        "color": "text-[#4285F4]"
+      },
+      {
+        "label": "Google 翻譯（中→日）",
+        "url": "https://translate.google.com/?sl=zh-TW&tl=ja&op=translate",
+        "icon": "fa-language",
+        "color": "text-blue-500"
+      }
+    ],
+    "defaultPeople": [
+      {
+        "name": "我"
+      },
+      {
+        "name": "朋友A"
+      }
+    ],
+    "sampleExpenses": [
+      {
+        "id": 1,
+        "amount": 1500,
+        "title": "機場巴士",
+        "payer": "我",
+        "category": "transport"
+      },
+      {
+        "id": 2,
+        "amount": 3000,
+        "title": "宮崎地雞晚餐",
+        "payer": "朋友A",
+        "category": "food"
+      }
+    ],
+    "exchangeRateNote": "約 1 日圓 ≈ 0.21 台幣（2026-10 參考值，可在設定中自行調整）"
+  },
+  "days": []
+}

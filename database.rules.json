@@ -1,0 +1,15 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "trips": {
+      "$tripId": {
+        ".read": "auth != null && $tripId.matches(/^[A-Za-z0-9_-]{1,64}$/)",
+        ".write": "auth != null && $tripId.matches(/^[A-Za-z0-9_-]{1,64}$/)",
+        "settings": {
+          "geminiApiKey": { ".validate": false }
+        }
+      }
+    }
+  }
+}
