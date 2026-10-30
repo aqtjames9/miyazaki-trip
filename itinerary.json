@@ -5,7 +5,7 @@
     "city": "宮崎",
     "startDate": "",
     "totalDays": 0,
-    "exchangeRate": 0.21,
+    "exchangeRate": 4.8,
     "currency": {
       "local": {
         "code": "JPY",
@@ -76,7 +76,7 @@
         "category": "food"
       }
     ],
-    "exchangeRateNote": "約 1 日圓 ≈ 0.21 台幣（2026-10 參考值，可在設定中自行調整）"
+    "exchangeRateNote": "1 台幣 ≈ 4.8 日圓（2026-10 參考值，與模板相同為「每 1 台幣可換多少當地幣」，可在設定中自行調整）"
   },
   "days": []
 }
